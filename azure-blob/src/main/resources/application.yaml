@@ -1,1 +1,16 @@
-spring.application.name=azure-blob
+spring:
+  application:
+    name: azure-blob
+
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 100MB
+      max-request-size: 200MB
+
+server:
+  port: 8990
+
+sas:
+  container-name: images
+  connection-string: DefaultEndpointsProtocol=https;AccountName=springuploadbeck;AccountKey=ps9PGSDYaZ4AvM4zz6zfgEWEu6zVX49lPAkSDeRP/p3izjHcoGWBvRL/XXA9u+VPXNFMo2XBukoo+ASt+HFE7g==;EndpointSuffix=core.windows.net
