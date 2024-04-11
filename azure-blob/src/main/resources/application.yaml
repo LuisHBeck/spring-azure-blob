@@ -13,4 +13,4 @@ server:
 
 sas:
   container-name: images
-  connection-string: DefaultEndpointsProtocol=https;AccountName=springuploadbeck;AccountKey=ps9PGSDYaZ4AvM4zz6zfgEWEu6zVX49lPAkSDeRP/p3izjHcoGWBvRL/XXA9u+VPXNFMo2XBukoo+ASt+HFE7g==;EndpointSuffix=core.windows.net
+  connection-string: ${connection-string}
